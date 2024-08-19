@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "NewTabLite",
+  "version": "1.0",
+  "description": "一个最简洁的起始页和主页拓展",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
