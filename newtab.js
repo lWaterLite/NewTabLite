@@ -24,6 +24,10 @@ function main() {
   setInterval(updateClock, 1000);
   updateClock();
   searchButton.onclick = search;
+  document.addEventListener('keyup', function (e) {
+    e.preventDefault();
+    if (e.keyCode === 13) search();
+  });
 }
 
 window.onload = main;
