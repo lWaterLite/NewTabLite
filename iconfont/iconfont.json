@@ -1,0 +1,16 @@
+{
+  "id": "4658692",
+  "name": "NewTabLite",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1262104",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e6f2",
+      "unicode_decimal": 59122
+    }
+  ]
+}

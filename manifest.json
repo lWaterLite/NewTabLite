@@ -6,6 +6,12 @@
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
+  "icons": {
+    "32": "icons/newtablite32x32.png",
+    "64": "icons/newtablite64x64.png",
+    "128": "icons/newtablite128x128.png",
+    "256": "icons/newtablite256x256.png"
+  },
   "permissions": [],
   "background": {
     "service_worker": "background.js"

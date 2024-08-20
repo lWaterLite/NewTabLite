@@ -2,12 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, viewport-fit=cover">
   <title>NewTabLite</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="iconfont/iconfont.css">
 </head>
 <body>
-  <h1>NewTabCustom</h1>
+  <div class="root">
+    <img src="https://api.lwaterlite.cc:9000/api/static/8981608a-897e-b7eb-9ca4-60956b387548.png" id="background-img" alt="bg">
+    <div id="dark-cover"></div>
+    <div id="clock"></div>
+    <div class="search-container" id="search-container">
+      <!--suppress HtmlFormInputWithoutLabel -->
+      <input name="search" id="search-input" type="text" placeholder="搜索" autocomplete="off">
+      <div id="search-thumb">
+        <i class="iconfont icon-search" id="search-i"></i>
+      </div>
+    </div>
+  </div>
   <script src="newtab.js"></script>
 </body>
 </html>
