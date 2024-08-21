@@ -80,6 +80,7 @@ async function createSuggestionsInnerHtml(suggestions) {
   let script = document.createElement('script');
   script.src = url;
   document.getElementsByTagName("head")[0].appendChild(script);
+  script.remove();
 }
 
 async function searchOninput() {
@@ -88,7 +89,7 @@ async function searchOninput() {
     clearTimeout(inputTimer);
     if (handleEmptySearchString() === false) return;
     createSuggestionsInnerHtml();
-  }, 800);
+  }, 500);
 }
 
 function main() {

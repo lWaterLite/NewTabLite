@@ -12,8 +12,17 @@
     "128": "icons/newtablite128x128.png",
     "256": "icons/newtablite256x256.png"
   },
-  "permissions": [],
+  "permissions": [
+  ],
   "background": {
     "service_worker": "background.js"
+  },
+  "sandbox": {
+    "pages": [
+      "newtab.html"
+    ]
+  },
+  "content_security_policy": {
+    "sandbox": "sandbox allow-scripts; script-src 'self' https://api.bing.com"
   }
 }
