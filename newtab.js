@@ -7,7 +7,7 @@ const searchContainer = document.getElementById('search-container')
 
 let inputTimer;
 
-const backgroundImageCount = 7;
+const backgroundImageCount = 10;
 
 function getSuggestions(json) {
   let suggestions = [];
